@@ -1,32 +1,37 @@
+@font-face {
+    font-family: 'Tenada';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+}
+
 #profile{
-    border: 2px solid;
     width: 1250px;
     height: auto;
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #C59B7A;
 }
 
 #profile-img{
     border: 2px solid;
     border-bottom: 0px;
-    width: 540px;
+    width: 700px;
     height: auto;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background-color: #f0edd8;
 }
 
 #profile-img img{
     width: 370px;
     height: 434px;
     margin-top: 5px;
-    border: 2px solid;
 }
 
 #profile-detail{
-    width: 540px;
+    width: 700px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -35,11 +40,32 @@
 }
 
 #profile-detail table{
-    width: 540px;
+    font-family: 'Tenada';
+    width: 700px;
     text-align: center;
+    font-size: 30px;
+    background-color: #f0edd8;
+}
+
+#profile-detail table a {
+    text-decoration: none;
+    color: black;
 }
 
 #profile-detail td{
     width: 270px;
     text-align: center;
+}
+
+#profile-detail td a img {
+    width: 100px;
+    height: 100px;
+}
+
+.td-left {
+    background-color: rgb(207, 171, 95);
+}
+
+.td-right {
+    background-color: wheat;
 }

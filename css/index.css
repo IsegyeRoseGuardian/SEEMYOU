@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-color: #bc8255;
 }
 
 #main {
@@ -8,4 +8,5 @@ body {
     width: 1300px;
     height: auto;
     border: 2px solid;
+    background-color: #C59B7A;
 }

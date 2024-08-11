@@ -1,4 +1,9 @@
-#top{
+@font-face {
+    font-family: 'LOTTERIACHAB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+}
+
+#top {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: auto;
@@ -6,9 +11,11 @@
     width: 1250px;
     height: 100px;
     border: 2px solid;
+    background-color: rgb(208, 208, 4);
 }
 
-#top-main{
+#top-main {
     text-align: center;
     font-size: 70px;
+    font-family: 'LOTTERIACHAB';
 }
