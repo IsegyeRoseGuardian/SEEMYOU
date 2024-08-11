@@ -12,6 +12,7 @@
     height: 100px;
     border: 2px solid;
     background-color: rgb(208, 208, 4);
+    border-radius: 20px;
 }
 
 #top-main {
