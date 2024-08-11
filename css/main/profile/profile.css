@@ -1,6 +1,11 @@
 @font-face {
-    font-family: 'Tenada';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-family: 'LOTTERIACHAB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIACHAB.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
 }
 
 #profile{
@@ -12,12 +17,27 @@
     background-color: #C59B7A;
 }
 
+#profile-name{
+    border: 2px solid;
+    border-bottom: 0px;
+    background-color: #bc8255;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: auto;
+    font-family: 'LOTTERIACHAB';
+}
+
+.profile-name-text{
+    text-align: center;
+    font-size: 25px;
+}
+
 #profile-img{
     border: 2px solid;
     border-bottom: 0px;
     width: 700px;
     height: auto;
-    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -40,10 +60,8 @@
 }
 
 #profile-detail table{
-    font-family: 'Tenada';
     width: 700px;
-    text-align: center;
-    font-size: 30px;
+    height: auto;
     background-color: #f0edd8;
 }
 
@@ -53,7 +71,9 @@
 }
 
 #profile-detail td{
+    font-family: 'SF_HambakSnow';
     width: 270px;
+    font-size: 30px;
     text-align: center;
 }
 
